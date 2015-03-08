@@ -22,7 +22,7 @@ If you want both main site and sub site forums displayed on the sub site, set a 
 
 **Profile Note:** Profiles are not merged! Favorites, topics started etc show main/sub site only. If you want your users to see all their subscriptions in one place, you'll have to write some custom code and likely patch my code too.
 
-**BuddyPress Note:** It does work with network enabled BuddyPress, but they don't play together nicely because of the BuddyPress/BBPress integration stuff. I have monkey patched this to work. But again with the profiles, on BuddyPress profiles you will ONLY see main site forum information. So you cannot make good use of e.g. the suscription management. Feel free to write an integration patch and send it to me.
+**BuddyPress Note:** It does work with network enabled BuddyPress, but they don't play together nicely because of the BuddyPress/BBPress integration stuff. I have monkey patched this to work. If you do not have BuddyPress installed in /members/ you'll have to monkey patch my monkey patch, please see the code. And as for the profiles: Same thing as with BBPress profiles.
 
 == Changelog ==
 
