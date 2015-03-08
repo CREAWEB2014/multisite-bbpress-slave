@@ -182,12 +182,12 @@ function mbbps_slug_it_up() {
 		return get_blog_option( 1, '_bbp_show_on_root', 'forums' );
 	});
 
-	// buggy bbpress is buggy
+	// buggy bbpress is buggy (bug is in 2.5.5 stable, but fixed in svn trunk)
 	// faulty code (applies root slug filter to forum slug get)
 	// function bbp_get_forum_slug( $default = 'forum' ) {;
 	//	return apply_filters( 'bbp_get_root_slug', bbp_maybe_get_root_slug() . get_option( '_bbp_forum_slug', $default ) );
 	// }
-	// for fixed bbpress versions (if and when fixed) it should look like this: ( uncommented to support a future bugfix for bbpress )
+	// for fixed bbpress versions it should look like this: ( uncommented to support the bugfix )
 	add_filter( 'bbp_get_forum_slug', function() {
 		return bbp_maybe_get_root_slug() . get_blog_option( 1, '_bbp_forum_slug', 'forum');
 	});
