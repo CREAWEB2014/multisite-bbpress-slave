@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: Multisite BBPress Slave
-Description: Make sub sites use the main site's BBPress forums
+Plugin Name: Multisite bbPress Slave
+Description: Make sub sites use the main site's bbPress forums
 Plugin URI: http://wordpress.org/extend/plugins/multisite-bbpress-slave
 Author: Markus Echterhoff
 Author URI: http://www.markusechterhoff.com
